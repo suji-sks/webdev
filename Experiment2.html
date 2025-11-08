@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DailyPulse News — Top Stories</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>DailyPulse News <small>(Local & World)</small></h1>
+    <p><em>Your quick pulse on the day's top stories — <strong>accurate</strong>, <strong>clear</strong>, <u>concise</u>.</p>
+    <p>Contact: <a href="mailto:editor@dailypulse.example">editor@dailypulse.example</a></p>
+    <hr>
+  </header>
+
+  <!-- Navigation -->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#top-stories">Top Stories</a></li>
+      <li><a href="#world">World</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#multimedia">Multimedia</a></li>
+      <li><a href="#opinion">Opinion</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <hr>
+  </nav>
+
+  <main>
+    <!-- Top Stories Section -->
+    <section id="top-stories">
+      <h2>Top Stories</h2>
+
+      <article aria-labelledby="story1">
+        <h3 id="story1">City Council Approves New Transit Plan</h3>
+        <p><strong>Cityville</strong> — The city council voted 7–2 in favor of the <em>Transit Forward</em> plan, expected to expand bus routes and add protected bike lanes.</p>
+
+        <p><u>Key Points:</u></p>
+        <ol>
+          <li>New express routes connecting suburbs to downtown.</li>
+          <li>Increased funding for bike lanes and sidewalks.</li>
+          <li>Community meetings planned for public feedback.</li>
+        </ol>
+
+        <p>Read the full report: <a href="https://example.com/transit-plan" target="_blank" rel="noopener">Transit Forward — Official Report</a>.</p>
+      </article>
+
+      <article aria-labelledby="story2">
+        <h3 id="story2">Local Startup Raises Series A</h3>
+        <p><strong>Startup:</strong> BrightLeaf Tech — <strong>Amount raised:</strong> ₹20 crore &mdash; to scale their sustainable-packaging solution.</p>
+
+        <dl>
+          <dt>Founders</dt>
+          <dd>Asha Rao &amp; Miguel Santos</dd>
+          <dt>Headquarters</dt>
+          <dd>Cityville Tech Park</dd>
+        </dl>
+      </article>
+
+      <hr>
+    </section>
+
+    <!-- World Section -->
+    <section id="world">
+      <h2>World</h2>
+      <ul>
+        <li>
+          <strong>Summit Talks Continue:</strong> Delegates meet to discuss climate finance.
+          <ul>
+            <li>Focus: adaptation funding</li>
+            <li>Outcome expected by Friday</li>
+          </ul>
+        </li>
+        <li><a href="https://news.example.com/global-economy" target="_blank" rel="noopener">Global economy trends</a></li>
+      </ul>
+      <hr>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology">
+      <h2>Technology</h2>
+      <p>In tech today: a major software release, an open-source project update, and reviews of the latest phones.</p>
+      <p>Feature: <strong>How AI is reshaping local businesses</strong> — read our analysis <a href="https://example.com/ai-local" target="_blank" rel="noopener">here</a>.</p>
+      <hr>
+    </section>
+
+    <!-- Multimedia Section: Embedded YouTube + Video + Audio + Image -->
+    <section id="multimedia">
+      <h2>Multimedia</h2>
+
+      <!-- Embedded YouTube video -->
+      <article aria-labelledby="video1">
+        <h3 id="video1">Interview: Mayor on Transit Plan (YouTube)</h3>
+        <!-- Replace the src '...embed/VIDEO_ID' with a real YouTube video id -->
+        <figure>
+          <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/VIDEO_ID"
+                  title="Interview with Mayor"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+          <figcaption>Watch the mayor explain the transit plan in this exclusive interview on DailyPulse TV.</figcaption>
+        </figure>
+      </article>
+
+      <!-- Native HTML5 video element (self-hosted example) -->
+      <article aria-labelledby="video2">
+        <h3 id="video2">City Parade Highlights (MP4)</h3>
+        <figure>
+          <video width="640" height="360" controls>
+            <source src="media/parade-highlights.mp4" type="video/mp4">
+            Your browser does not support the video tag. <a href="media/parade-highlights.mp4">Download the video</a>.
+          </video>
+          <figcaption>Highlights from the annual city parade. (File: parade-highlights.mp4)</figcaption>
+        </figure>
+      </article>
+
+      <!-- Audio snippet (podcast excerpt) -->
+      <article aria-labelledby="audio1">
+        <h3 id="audio1">Podcast: Transit Forward — Episode 2</h3>
+        <figure>
+          <audio controls>
+            <source src="media/podcast-episode2.mp
