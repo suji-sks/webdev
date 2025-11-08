@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stude<nt Registration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <hr>
+    <form action="/submit personal details" style="border: #ccc;">
+    <p> <label for="Full name"> Full Name:</label>
+    <input type="text" name="full_name" id="full_name" placeholder="Enter your full Name"></p>
+    <p> <label for="Email adderess"> Email:</label>
+    <input type="text" name="email" id="email" placeholder="Enter valid Email Adderess"></p>
+    <p> <label for="Password"> Password:</label>
+    <input type="text" id="Password" name="Password" placeholder="Enter Password"></p>
+    <p> <label for="Gender"> Gender:</label>
+    <input type="radio" id="Male" name="Gender" value="Male">
+    <label for="Male"> Male</label>
+    <input type="radio" id="Female" name="Gender" value="Female">
+    <label for="Female">Female</label>
+    <input type="radio" id="Other" name="Gender" value="Other">
+    <label for="Other"> Other</label></p>
+    <p> <label for="Course"> Course:</label>
+    <select id="Course" name="Course">
+        <option value="" selected disabled>-- Select Course --</option>
+        <option value="BCA">BCA</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="BCOM">BCOM</option>
+        <option value="BA">BA</option>  
+    </select></p>
+    <p><label for="Contact Number"> Contact Number:</label>
+    <input type="tel" id="Contact Number" name="Contact Number" placeholder="Enter phone number"></p>
+    <p><label for="Adderess"> Address:</label></p>
+    <textarea id="address" name="adderess" rows="5" cols="50"></textarea>
+    <div class="buttons">
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </div>
+    <hr>
+    <p style="font-size: smaller;text-align: center;">&copy; 2025 Student Registration Portal</p>
+ 
+    </form>
+   
+</body>
+</html>

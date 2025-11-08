@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+</head>
+    <body>
+ 
+    <h1 style="text-align: center;">Hotel Room Booking Form</h1>
+   
+    <form action="/submit-booking" method="post" style="text-align: center;border: #ccc;">
+       
+     <p>   <label style="text-align: right;" for="full_name" >Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required> </p>
+ 
+      <p>  <label style="text-align: right;"for="email">Email:</label>
+        <input type="email" id="email" name="email" required></p>
+ 
+       <p> <label style="text-align: right;"for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 123-456-7890"></p>
+ 
+      <p>  <label style="text-align: right;" for="check_in">Check-in Date: dd-mm-yyyy</label>
+        <input type="date" id="check_in" name="check_in" required></p>
+       
+      <p>  <label style="text-align: right;"for="check_out">Check-out Date: dd-mm-yyyy</label>
+        <input type="date" id="check_out" name="check_out" required></p>
+       
+      <p>  <label style="text-align: right;"for="room_type">Room Type:</label>
+        <select id="room_type" name="room_type">
+            <option value="single" selected>Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+        </select></p>
+ 
+       <p> <label style="text-align: right;"for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" required></p>
+ 
+       <p> <label style="text-align: right;"for="requests" style="display: block; text-align: left; width: auto; margin-left: 170px;">Special Requests:</label></p>
+        <textarea id="requests" name="special_requests" rows="5" cols="50"></textarea>
+       
+        <div class="buttons">
+            <input type="submit" value="Book Now">
+           
+            <input type="reset" value="Reset Form">
+        </div>
+ 
+    </form>
+   
+</body>
+</html>
+ 
